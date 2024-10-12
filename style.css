@@ -6,7 +6,6 @@ body {
     background-color: #F4F7FA;
 }
 
-
 header {
     display: flex;
     justify-content: space-between;
@@ -93,8 +92,6 @@ p {
     /* Medium gray for paragraph text */
 }
 
-
-
 #schedule ul {
     list-style: none;
     padding: 0;
@@ -152,7 +149,6 @@ footer {
     /* Coral red on hover */
 }
 
-
 #email a {
     text-decoration: none;
     color: #FFD93D;
@@ -162,10 +158,6 @@ footer {
     text-decoration: none;
     color: #FF6B6B;
 }
-
-
-
-
 
 #teacher {
     background-color: #afb4ba1a;
@@ -181,7 +173,7 @@ footer {
 
 .teacher-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     gap: 20px;
     max-width: 800px;
@@ -190,7 +182,6 @@ footer {
 
 .teacher-photo {
     border-radius: 50%;
-
     width: 150px;
     height: 150px;
     object-fit: cover;
@@ -227,4 +218,58 @@ footer {
     .teacher-info {
         max-width: 600px;
     }
+}
+
+@media (max-width: 768px) {
+
+    /* responsive header */
+    header {
+        flex-direction: column;
+        align-items: start;
+        text-align: start;
+        padding: 20px 15px;
+
+    }
+
+    nav a {
+        background-color: #5BA4FF solid;
+        border-radius: 25px;
+        padding: 5px 5px;
+    }
+
+    header nav ul {
+        list-style: none;
+        text-align: start;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 0;
+
+    }
+
+    .logo img {
+        width: auto;
+        height: auto;
+    }
+
+
+    /* search bar responsive */
+    .search {
+        width: 100%;
+    }
+
+    .search input[type="Text"] {
+        flex: 1;
+    }
+
+    .search button {
+        flex-shrink: 0;
+    }
+
+    /* responsive footer */
+
+    footer {
+        flex-direction: column;
+    }
+
 }
