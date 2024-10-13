@@ -260,6 +260,95 @@ p {
     /* Space between emoji and text */
 }
 
+
+/* Resources Section Styles */
+#resources {
+    text-align: center;
+    /* Center text */
+    margin: 40px 0;
+    /* Vertical margin */
+}
+
+.resources-grid {
+    display: flex;
+    /* Flexbox layout */
+    justify-content: center;
+    /* Center items in the grid */
+    align-items: center;
+    /* Center items vertically */
+    flex-wrap: wrap;
+    /* Allow items to wrap */
+    margin: 0 auto;
+    /* Center the grid itself */
+    max-width: 2500px;
+    /* Set a max width for the grid */
+}
+
+.resource-item {
+    display: flex;
+    /* Enable Flexbox */
+    flex-direction: column;
+    /* Stack children vertically */
+    align-items: center;
+    /* Center items horizontally */
+    justify-content: center;
+    /* Center items vertically */
+    background-color: #fff;
+    /* Background color */
+    border-radius: 10px;
+    /* Rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    /* Shadow */
+    max-width: 400px;
+    min-width: 400px;
+    /* Increased max width */
+    min-height: 300px;
+    /* Minimum height for uniformity */
+    margin: 20px;
+    /* Margin around items */
+    padding: 30px;
+    /* Padding inside items */
+    text-align: center;
+    /* Center text */
+}
+
+/* Ensure consistent font size for descriptions */
+.resource-item p {
+    font-size: 18px;
+    /* Increased font size for descriptions */
+    color: #555;
+    /* Paragraph color */
+    margin: 0;
+    /* No margin to avoid affecting vertical alignment */
+    line-height: 1.5;
+    /* Line height for readability */
+}
+
+.resource-item img {
+    margin-bottom: 15px;
+    /* Space between image and text */
+    width: 100px;
+    /* Fixed width for images */
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
+
+
+
+
+
+
+
+#stat {
+    color: #5BA4FF;
+}
+
+.resource-icon {
+    width: 80px;
+    /* Fixed width for icons */
+}
+
 /* Resource Links Styles */
 .resources-grid a {
     text-decoration: none;
@@ -275,6 +364,23 @@ p {
     /* Hover color */
     text-decoration: underline;
     /* Underline on hover */
+}
+
+/* Specific Heading Styles for Resources Section */
+#resources h2 {
+    font-size: 36px;
+    /* Smaller font size for section heading */
+    color: #333;
+    /* Heading color */
+    margin-bottom: 20px;
+    /* Margin below the heading */
+}
+
+.resource-item h3 {
+    font-size: 24px;
+    /* Increased font size for titles */
+    margin-bottom: 10px;
+    /* Space below the title */
 }
 
 /* Gallery Styles */
