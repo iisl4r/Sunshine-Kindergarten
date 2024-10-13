@@ -18,16 +18,18 @@ The Sunshine Kindergarten website is designed to provide a fun and informative p
 - **Footer**: Information and links in the footer for additional context.
 
 ## Project Structure
-Sunshine-Kindergarten/
-├── index.html # The main HTML file 
-├── styles.css # The CSS file for styling the website 
-└── img/ # Directory containing images for the website 
-   ├── logo-placeholder.png # Logo for the website 
-   ├── activity-placeholder.png # Images for class activities 
-   ├── announcement.png # Icon image 
-   ├── calender.png # Calendar icon 
-   ├── resource.png # New icon 
-   └── placeholder_girl.png # Placeholder image of a teacher
+```
+Sunshine-Kindergarten/  
+├── `index.html` # The main HTML file  
+├── `styles.css` # The CSS file for styling the website  
+└── `img/` # Directory containing images for the website  
+   ├── `logo-placeholder.png` # Logo for the website  
+   ├── `activity-placeholder.png` # Images for class activities  
+   ├── `announcement.png` # Icon image  
+   ├── `calender.png` # Calendar icon  
+   ├── `resource.png` # New icon  
+   └── `placeholder_girl.png` # Placeholder image of a teacher  
+```
 
 ## Installation
 
